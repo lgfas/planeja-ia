@@ -1,0 +1,21 @@
+.meus-estudos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.meus-estudos a {
+    display: flex;
+    gap: 4px;
+}
+
+.cronograma-superior {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    color: #FFFFFF;
+}
+
+.cronograma-superior-texto p {
+    margin-top: 36px;
+}

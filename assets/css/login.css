@@ -92,3 +92,48 @@
   color: #6549ff;
   text-decoration: underline;
 }
+
+@media (max-width: 650px) {
+  .login-div {
+    padding: 16px 32px;
+
+  }
+}
+
+@media (max-width: 450px) {
+  .login-div {
+    padding: 16px 32px;
+    gap: 8px;
+  }
+
+  .logo {
+    width: 120px;
+    margin-top: 16px;
+  }
+
+  .login-div h1 {
+    font-size: 24px;
+  }
+  
+  .login-div h2 {
+    font-size: 16px;
+  }
+  
+  .form-login {
+    gap: 8px;
+  }
+  
+  .form-login label {
+    font-size: 12px;
+  }
+  
+  .form-login input {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .link-login {
+    font-size: 12px;
+  }
+  
+}
