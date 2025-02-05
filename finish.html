@@ -22,26 +22,33 @@
         <div class="container form-div">
             <form class="form-container">
               <label for="dificuldade">Nível de dificuldade:</label>
-              <select id="dificuldade" name="dificuldade" multiple>
-                <option value="facil">Fácil</option>
-                <option value="moderado">Moderado</option>
-                <option value="dificil">Difícil</option>
+              <select id="dificuldade" name="dificuldade">
+              <option value="facil">Fácil</option>
+              <option value="moderado">Moderado</option>
+              <option value="dificil">Difícil</option>
               </select>
 
               <label for="objetivo">Objetivo Principal:</label>
-              <select id="objetivo" name="objetivo" multiple>
+              <select id="objetivo" name="objetivo">
                 <option value="enem">ENEM</option>
                 <option value="faculdade">Faculdade</option>
                 <option value="trabalho">Trabalho</option>
               </select>
 
               <label for="metodo">Selecione seu método de estudo:</label>
-              <select id="metodo" name="metodo" multiple>
+              <select id="metodo" name="metodo">
                 <option value="pomodoro">Pomodoro</option>
               </select>
         
               <label for="duration">Duração do Cronograma:</label>
               <input type="text" id="duration" name="duration" placeholder="Ex: 4 semanas" required>
+              <div class="radio-div">
+                <p>Disponibilidade no fim de semana:</p>
+                <input type="radio" id="sim" name="disponibilidade" value="true">
+                <label class="radio-label" for="sim">Sim</label>
+                <input type="radio" id="nao" name="disponibilidade" value="false">
+                <label class="radio-label" for="nao">Não</label>
+              </div>
         
               <button class="button" type="submit">Prosseguir</button>
             </form>

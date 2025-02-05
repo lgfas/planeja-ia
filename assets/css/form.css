@@ -33,7 +33,6 @@
 .form-container {
     display: grid;
     grid-template-columns: 1fr;
-
 }
 
 .form-container label {
@@ -61,16 +60,22 @@
     border-radius: 5px;
     font-size: 14px;
     box-sizing: border-box;
-    appearance: none; /* Remove o estilo padrão do select */
-    background-color: #fff;
-    background-position: right 10px center;
-    background-size: 10px;
-    cursor: pointer;
-    height: 40px; /* Mesmo tamanho dos inputs */
 }
   
 
 .form-container button {
     margin-top: 32px;
     justify-self: center;
+}
+
+.form-container input[type=radio] {
+    width: auto;
+}
+
+.radio-div p {
+    margin-bottom: 12px;
+}
+
+.form-container label.radio-label {
+    display: inline;
 }
