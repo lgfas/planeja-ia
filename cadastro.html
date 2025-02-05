@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planeja.IA - Cadastro</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="login">
+        <div class="container login-div">
+            <div class="logo-cadastro">
+                <img src="assets/img/image 4.svg" alt="Logo Planeja.IA">
+            </div>
+            <h1>Planeja<span>.IA</span></h1>
+            <h2>Faça seu Cadastro</h2>
+
+            <form class="form-login">
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username" placeholder="Digite seu nome de usuário" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="email@email.com" required>
+
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" placeholder="Senha" required>
+
+                <label for="confirm-password">Confirme a senha:</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirme sua senha" required>
+
+                <a class="link-login" href="/login">Já tem uma conta?</a>
+
+                <button class="button-login" type="submit">Cadastrar</button>
+                <button class="button-login" type="button" onclick="window.location.href='/login'">Voltar</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
